@@ -28,4 +28,4 @@ The solution contains two projects. Project "InferenceEngine" is the inference e
 1. Due to be an highly dynamic and interpreted inference engine, runtime performance is significantly lower than any WAM-based prolog implementation such as SWI-PROLOG. Performance can therefore be improved by adding object pooling, for example.
 2. Currently lack of a standard library to operate on list, io, etc. Any contribution is welcomed!
 3. Currently, programs and queries are only expected to be built programmatically. Adding a parser would also be a great contribution.
-4. The arithmetic constraints over rationals have potential to become way smarter. However, they are already smart enough to solve factorials in both directions, i.e find output given input or find input given output (see test case factorial in "InferenceEngineTests").
+4. The arithmetic constraints over rationals have potential to become way smarter. However, they are already smart enough to solve factorials in both directions, i.e, find output given input or find input given output (see test case factorial in "InferenceEngineTests").
