@@ -5,7 +5,7 @@ A prolog-inspired inference engine written in modern C# and targeting .NET6.
 ## Key similarities with prolog:
 
 1. A program is simply composed by facts and production rules (horn clauses).
-2. Unification of terms (T1 = T2) and inverse deduction (T1 :- T2, T3) are the two cores algorithms of the inference engine.
+2. Unification of terms (T1 = T2) and inverse deduction (T1 :- T2, T3) are the two core algorithms of the inference engine.
 3. Built-in backtracking so all the valid solutions of a given query can be retrieved.
 4. Built-in negation as failure.
 5. The inference engine purpose is to find solutions to queries (goals) introduced by the user.
